@@ -54,6 +54,6 @@ The main JavaScript code in `script.js` contains the following elements:
 
 If you encounter any issues with the Scoreboard App or have suggestions for improvements, feel free to open an issue or submit a pull request in the repository. We welcome and appreciate your contributions!
 
-Enjoy tracking scores with the Scoreboard App! 🏀🏆
+Enjoy tracking scores with the Scoreboard App! 🏀🏆 [app.netlify.com](https://capable-klepon-41fa68.netlify.app/)
 
 ![Scoreboard](/Scoreboard.png)
