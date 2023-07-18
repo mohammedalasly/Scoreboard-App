@@ -1,0 +1,62 @@
+body {
+  background: #1b244a;
+  text-align: center;
+}
+
+#home-score,
+#guest-score {
+  background: #0a0001;
+  font-size: 80px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #f94f6d;
+  width: 180px;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+h3 {
+  color: #eee;
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 50px;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #9aabd8;
+  background: none;
+  color: #9aabd8;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 8px;
+  cursor: pointer;
+}
+#rematch {
+  background: #0a0001;
+  font-size: 20px;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bold;
+  color: #f94f6d;
+  width: 160px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button:hover {
+  transform: scale(1.1);
+}
