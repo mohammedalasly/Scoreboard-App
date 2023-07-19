@@ -40,4 +40,6 @@ function guest3() {
 function rematch() {
   guestEl.textContent = 0;
   homeEl.textContent = 0;
+  homeScore = 0;
+  guestScore = 0;
 }
