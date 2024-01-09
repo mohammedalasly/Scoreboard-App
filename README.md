@@ -18,37 +18,12 @@ Once the Scoreboard App is loaded in your web browser, you can interact with it 
 
 ### Score Tracking
 
-- **Home Team**: Use the following buttons to increment the home team's score:
-
-  - **Home +1**: Adds 1 point to the home team's score.
-  - **Home +2**: Adds 2 points to the home team's score.
-  - **Home +3**: Adds 3 points to the home team's score.
-
-- **Guest Team**: Use the following buttons to increment the guest team's score:
-  - **Guest +1**: Adds 1 point to the guest team's score.
-  - **Guest +2**: Adds 2 points to the guest team's score.
-  - **Guest +3**: Adds 3 points to the guest team's score.
+  - **+1**: Adds 1 point to score.
+  - **+2**: Adds 2 points to score.
+  - **+3**: Adds 3 points to score.
 
 The updated scores for both teams will be displayed on the screen.
 
-### Rematch
-
-If you want to start a new game or reset the scores to zero, click the "Rematch" button. This will reset both the home team's and guest team's scores to zero.
-
-## Code Overview
-
-The main JavaScript code in `script.js` contains the following elements:
-
-- **Score Variables**: The `homeScore` and `guestScore` variables hold the current scores for the home team and guest team, respectively.
-
-- **Score Element Retrieval**: The `homeEl` and `guestEl` variables represent the HTML elements with the IDs "home-score" and "guest-score," which are used to display the scores for the home team and guest team, respectively.
-
-- **Functions to Increment Scores**: The following functions are used to update the scores for each team and reflect the changes in the corresponding HTML elements:
-
-  - `home1()`, `home2()`, `home3()`: Increment the home team's score by 1, 2, and 3 points, respectively.
-  - `guest1()`, `guest2()`, `guest3()`: Increment the guest team's score by 1, 2, and 3 points, respectively.
-
-- **Rematch Function**: The `rematch()` function resets both the home team's and guest team's scores to zero.
 
 ## Contribution
 
